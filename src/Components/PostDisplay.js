@@ -17,7 +17,7 @@ const PostDisplay=()=>{
         //     dispatch(postFetchError(error.message))
         // })
         dispatch(postData())
-    }, [])
+    }, [dispatch])
 
     return (
         <div>
